@@ -16,6 +16,11 @@ public class DataTypes {
 
         //     Вычисления с разными типами данных
 
+        System.out.println(myByte+myShort);
+        System.out.println(myByte/myInt);
+        System.out.println(myShort*myDouble);
+        System.out.println(myFloat-myInt);
+
         if (multiplication >= multiplication2) {
             System.out.println("multiplication больше");
         } else if (multiplication2 >= multiplication) {
